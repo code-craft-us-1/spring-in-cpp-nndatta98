@@ -1,4 +1,5 @@
 #include "stats.h"
+#include <cmath>
 #include <vector>
 
 Stats Statistics::ComputeStatistics(const std::vector<float>& numbers) 
