@@ -1,15 +1,6 @@
 #include "stats.h"
 #include <vector>
 
-
-struct Stats
-{
-    float average;
-    float min;
-    float max;
-};
-
-
 Stats Statistics::ComputeStatistics(const std::vector<float>& numbers) 
 {
     Stats stats;
